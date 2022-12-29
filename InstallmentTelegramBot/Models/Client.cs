@@ -8,19 +8,19 @@ public class Client : BaseModel
 {
     [Required]
     [JsonPropertyName("lastName")]
-    public string LastName { get; set; }
+    public string? LastName { get; set; }
 
     [Required]
     [JsonPropertyName("phoneNumber")]
-    public string PhoneNumber { get; set; }
+    public string? PhoneNumber { get; set; }
 
     [Required]
     [JsonPropertyName("address")]
-    public string Address { get; set; }
+    public string? Address { get; set; }
 
     [Required]
     [JsonPropertyName("productName")]
-    public Product ProductName { get; set; }
+    public Product? ProductName { get; set; }
 
     [Required]
     [JsonPropertyName("purchaseDate")]
